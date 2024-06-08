@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f7fa;
+    color: #006064;
+}
+
+header {
+    background-color: #006064;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+main h1 {
+    color: #eaecec;
+}
+
+h2 {
+    color: #004d40;
+}
+
+/* Formulário de Cadastro */
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    max-width: 500px;
+    margin: auto;
+    display: flex; /* Adicionamos isso para tornar o formulário um contêiner flexível */
+    flex-direction: column; /* Empilhamos os elementos verticalmente */
+    align-items: center; /* Centralizamos os itens horizontalmente */
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: center; /* Centralizamos o texto dos rótulos */
+}
+
+form input, form textarea, form button {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #004d40;
+    border-radius: 5px;
+    text-align: center;
+}
+
+form button {
+    background-color: #004d40;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #003d33;
+}
+
+/* Lista de Viagens */
+#consulta input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #004d40;
+    border-radius: 5px;
+}
+
+#lista-viagens {
+    list-style: none;
+    padding: 0;
+}
+
+#lista-viagens li {
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 15px;
+    border: 1px solid #004d40;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#lista-viagens li button {
+    background-color: #ff5252;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#lista-viagens li button:hover {
+    background-color: #ff1744;
+}
+
+/* Relatório */
+#relatorio {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    max-width: 500px;
+    margin: 20px auto;
+    text-align: center;
+}
